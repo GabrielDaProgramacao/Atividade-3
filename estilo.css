@@ -1,0 +1,73 @@
+.cabecalho{
+  display: flex;
+  line-height: 15px;
+  background-image: url(download.jpg); height: 150px; 
+  color: aliceblue;
+  justify-content: center;
+
+}
+
+body{
+  background-color: lightgrey;
+
+}
+aside{
+  float: right;
+  display: block;
+  width: 280px;
+  margin: 0 10px;
+}
+section{
+  display:block;
+  width: 480px;
+  float: left;
+}
+.Contatos{
+  display:block;
+  width: 580px;
+  float: left;
+
+}
+
+.atalhos ul{
+  float: right;
+  margin: 0;
+}
+
+.atalhos li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    background-color: FFF;
+    font-size: large;
+}
+         
+.atalhos li a{
+    text-decoration: none;
+    color: darkslategrey;
+    transition: .5s;
+}
+         
+.atalhos li a:hover{
+    color:rgba(120, 6, 185, 0.726);
+}
+
+.imagem1{
+ width: 580px;
+ height: 440px;
+
+
+}
+.subparte{
+ text-indent: 0px
+
+}
+p{
+  font-size: medium;
+  font-family: Verdana;
+  width: 580px;
+  text-align:justify;
+  text-indent: 10px;
+  max-width: 580px;
+
+}
